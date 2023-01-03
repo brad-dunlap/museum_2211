@@ -1,6 +1,6 @@
 require './lib/patron'
 
-Rspec.describe Patron do
+RSpec.describe Patron do
 	let(:patron_1) { Patron.new("Bob", 20) }
 
 	describe '#initialize' do
