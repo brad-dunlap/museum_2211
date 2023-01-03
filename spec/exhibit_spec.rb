@@ -11,7 +11,7 @@ RSpec.describe Exhibit do
 
 		it 'has attributes' do
 			expect(exhibit.name).to eq("Gems and Minerals")
-			expect(exhibit.cost).to eq(0)			)
+			expect(exhibit.cost).to eq(0)
 		end
 	end
 end
